@@ -6,8 +6,11 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("HomePage"),
+      appBar: PreferredSize(
+        preferredSize: Size.fromHeight(152),
+        child: Container(
+          height: 152,
+        ),
       ),
     );
   }
